@@ -1,0 +1,21 @@
+git config --global user.name "Your Name"
+git config --global user.email "Your_emial@exm.com"
+touch .gitignore     		//to ignore file
+git init  			//to make new in reposetory current folder
+gitgit add .			// add all file in Repo
+git commit -m "Initial Commit" 	//took snapshot of current dir
+git status 			// just to see status of C repo 
+ssh-keygen -t rsa -b 4096 -C "Your Email"
+cat <path of id_rsa.pub>
+ex.
+cat /c/Users/Mehul/.ssh/id_rsa.pub  //and press enter and copy key and past in github
+git remote add origin <copy SSH>
+git push origin master
+git log 			//See all commit
+git diff			//To See what chnage made and compare it in pre file only if its not added in staging and not commited
+git diff --staged		//To See what chnage made and compare it in pre file even if its added in staging area but not commited
+git log -p			//To see all commit and all changes till now
+git log --stat			//To see all changes in sort form
+git log --pretty=oneline	//See all commit in one line
+git checkout --filename		//to rollback in previous verson
+git checkout -f			//to rollback all changes in pre ver
