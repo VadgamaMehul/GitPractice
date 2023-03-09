@@ -19,3 +19,6 @@ git log --stat			//To see all changes in sort form
 git log --pretty=oneline	//See all commit in one line
 git checkout --filename		//to rollback in previous verson
 git checkout -f			//to rollback all changes in pre ver
+ls -al ~/.ssh			//To see list of SSH key
+clip < ~/.ssh/id_rsa.pub	//add SSH key to current Repo
+
