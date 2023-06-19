@@ -1,8 +1,8 @@
-git config --global user.name "Your Name"
-git config --global user.email "Your_emial@exm.com"
+git config --global user.name "Mehul Vadgama"
+git config --global user.email "vadgama.mehul444@gmail.com"
 touch .gitignore     		//to ignore file
 git init  			//to make new in reposetory current folder
-gitgit add .			// add all file in Repo
+git add .			// add all file in Repo
 git commit -m "Initial Commit" 	//took snapshot of current dir
 git status 			// just to see status of C repo 
 ssh-keygen -t rsa -b 4096 -C "Your Email"
